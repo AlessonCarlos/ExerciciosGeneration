@@ -1,6 +1,7 @@
 const leia = require("readline-sync");
-let salario = Number(leia.question("Qual o seu Salario: R$"));
-let abono = Number(leia.question("Qual o seu abono: R$"));
+
+let salario = leia.questionFloat("Qual o seu salario: R$ ");
+let abono = leia.questionFloat("Qual o seu abono: R$ ");
 
 let novoSalario = salario + abono
 
