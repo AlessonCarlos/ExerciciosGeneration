@@ -1,0 +1,77 @@
+coisas para fazer uma unica vez no computador:
+ 
+// instalar o typescript para o computador inteiro
+
+npm install -g typescript
+ 
+//verificar se ta ok o Typescript
+
+tsc -v
+ 
+//instalar o ts-node (carinha que roda o projeto)
+
+npm install -g ts-node
+ 
+//verificar a versão do ts-node:
+
+ts-node -v
+
+//Instalar do readline-sync
+
+npm i --save-dev @types/readline-sync
+
+ 
+iniciar um novo projeto com TS
+
+// dentro da pasta do projeto
+
+npm init -y
+ 
+tsc --init
+
+Entrada de dados - Typescript 
+
+https://github.com/conteudoGeneration/cookbook_javascript/blob/main/01_javascript/11.md
+
+
+Criar .gitgnore
+
+No terminal, dentro da pasta javascript, crie o arquivo .gitignore, através do comando abaixo:
+touch .gitignore
+Abra o arquivo .gitignore, adicione o código abaixo e salve:
+# compiled output
+/dist
+/node_modules
+nodemon.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
